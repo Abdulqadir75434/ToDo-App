@@ -8,6 +8,12 @@ function addtudo(){
     renderTodo()
 }
 
+function deletetudo(){
+    arr.splice(index,1)
+    renderTodo()
+}
+function 
+
 
 
 
