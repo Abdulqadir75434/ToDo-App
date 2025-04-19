@@ -3,16 +3,21 @@ var ol = document.querySelector('ol')
 
 var arr = [];
 
-function addtudo(){
+function addTodo(){
     arr.push(input.value)
     renderTodo()
 }
 
-function deletetudo(){
+function deleteTodo(index){
     arr.splice(index,1)
     renderTodo()
 }
-function 
+function editTodo(index){
+    console.log('edit todo', index)
+    var editvalue = prompt('Enter tha edit')
+    arr[index]= editvalue
+    renderTodo()
+}
 
 
 
